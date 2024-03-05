@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Developers</title>
+  </head>
+  <body>
+    <section class="Intro">
+      <header class="Header">
+        <div class="Logo">
+          <img src="./assets/logo.png" alt="logo" />
+        </div>
+        <nav class="Desktop-nav">
+          <ul>
+            <li>
+              <a href="#">Начало</a>
+            </li>
+            <li>
+              <a href="#">За Дружеството</a>
+            </li>
+            <li>
+              <a href="#">Купуване на Земя</a>
+            </li>
+            <li>
+              <a href="#">Отдаване на Земя</a>
+            </li>
+            <li>
+              <a href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="burger" class="Burger-menu" onclick="toggleMenu()">☰</div>
+        <nav id="mobileNav" class="Mobile-nav">
+          <ul>
+            <li>
+              <div
+                id="burgerClose"
+                class="Mobile-nav-close"
+                onclick="toggleMenu()"
+              >
+                <img src="/assets/close.png" />
+              </div>
+            </li>
+            <li>
+              <a href="#">Начало</a>
+            </li>
+            <li>
+              <a href="#">За Дружеството</a>
+            </li>
+            <li>
+              <a href="#">Купуване на Земя</a>
+            </li>
+            <li>
+              <a href="#">Отдаване на Земя</a>
+            </li>
+            <li>
+              <a href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="Intro-content">
+        <div class="Intro-text">
+          <h1>Купува и отдава земеделска земя в цяла България</h1>
+        </div>
+        <div class="CTA">
+          <a href="#">Вижте Повече</a>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+
+    <section class="About Shell">
+      <div class="About-inner">
+        <img src="./assets/AboutImage.jpg" alt="A field with trees" />
+        <div class="About-content">
+          <h2>Добре Дошли!</h2>
+          <p>
+            „Земя“ AД е дружество, учредено през 2009 година. Основната дейност
+            на дружеството е изкупуване на земеделска земя в цяла България,
+            нейното управление и отдаване под наем и аренда. С цел окрупняване
+            на земеделските площи и ефективното им използване, Земя АД участва в
+            реализирането на различни комасационни проекти, част от които вече
+            са финализирани. Нашият екип предлага на своите партньори и клиенти
+            юридически и финансови консултации. Дружеството има офиси и
+            представители в цялата страна.
+          </p>
+          <div class="About-CTA">
+            <a href="#">Вижте Повече</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--BUY SECTION-->
+
+    <section class="Buy">
+      <div class="Buy-inner">
+        <div class="Buy-content">
+          <h2>Изкупуване на Земеделски Земи</h2>
+          <p>Желаете да продадете зямата си? Направете запитване за цена.</p>
+          <p>
+            Моля, попълнете формата по-долу Възможно най-бързо ще получите
+            отговор с информация за цената, на която можем да купим Вашият имот.
+          </p>
+        </div>
+        <div class="Buy-CTA">
+          <a href="#">Купи Сега</a>
+        </div>
+      </div>
+    </section>
+
+    <!--RENTING SECTION-->
+
+    <section class="Renting">
+      <div class="Renting-inner">
+        <div class="Renting-content">
+          <h2>Отдаване на Земеделски Земи</h2>
+          <p>Желаете да продадете зямата си? Направете запитване за цена.</p>
+          <p>
+            Моля, попълнете формата по-долу Възможно най-бързо ще получите
+            отговор с информация за свободните имоти в посочения от Вас район.
+          </p>
+          <div class="Renting-CTA">
+            <a href="#">Виж Повече</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--NEWS SECTION-->
+
+    <section class="News">
+      <h2>Последни Новини</h2>
+      <div class="News-card">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+          malesuada semper augue, quis pellentesque nulla ullamcorper ac. Donec
+          vitae magna hendrerit, dignissim lorem vel, consequat dolor. Nullam
+          porta lorem et eros malesuada, mollis dignissim nulla auctor. Vivamus
+          lobortis quis risus vel feugiat. Praesent ante odio, porta sit amet
+          volutpat nec, dignissim ac libero. Proin purus orci, vehicula nec
+          pretium quis, condimentum non libero. Suspendisse bibendum sapien non
+          orci efficitur sodales. Cras non sapien dui. Nunc porttitor porttitor
+          arcu, id efficitur felis feugiat a.
+        </p>
+        <div class="Card-date">
+          <p>21.11.2023</p>
+          <a href="#">Виж цялата новина...</a>
+        </div>
+        <hr />
+      </div>
+
+      <div class="News-card">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+          malesuada semper augue, quis pellentesque nulla ullamcorper ac. Donec
+          vitae magna hendrerit, dignissim lorem vel, consequat dolor. Nullam
+          porta lorem et eros malesuada, mollis dignissim nulla auctor. Vivamus
+          lobortis quis risus vel feugiat. Praesent ante odio, porta sit amet
+          volutpat nec, dignissim ac libero. Proin purus orci, vehicula nec
+          pretium quis, condimentum non libero. Suspendisse bibendum sapien non
+          orci efficitur sodales. Cras non sapien dui. Nunc porttitor porttitor
+          arcu, id efficitur felis feugiat a.
+        </p>
+        <div class="Card-date">
+          <p>21.11.2023</p>
+          <a href="#">Виж цялата новина...</a>
+        </div>
+        <hr />
+      </div>
+      <div class="News-more">
+        <a href="#">вижте всички новини</a>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+
+    <section class="Contact">
+      <div class="Contact-inner">
+        <div class="Contact-form">
+          <h2>Свържете се с нас!</h2>
+          <form>
+            <div>
+              <input type="text" name="Names" placeholder="Вашите имена*" />
+            </div>
+            <div>
+              <input type="email" name="Email" placeholder="Вашият Email*" />
+            </div>
+            <div>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Съобщение"
+              ></textarea>
+            </div>
+            <button type="submit" value="Submit">Изпращане</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+
+    <section class="Partners">
+      <div class="Partners-inner">
+        <h2>Земя АД е част от Ромфарм компани ООД</h2>
+        <img src="./assets/Rompharm.png" alt="Rompharm Logo" />
+        <div class="Partners-grid">
+          <div class="Partner">Земя АД</div>
+          <div class="Partner">Ромфарм компани ООД</div>
+          <div class="Partner">Росагрофонд ООД</div>
+          <div class="Partner">С.И.Г ООД</div>
+          <div class="Partner">Серес ЕАД</div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER SECTION-->
+    <footer class="Footer">
+      <div class="Footer-inner">
+        <div class="Footer-logo">
+          <img src="./assets/BASZZ_logo01.png" alt="BASZZ Logo" />
+          <p>
+            Земя АД е Председател на Управителния съвет на Българската Асоциация
+            на Собствениците на Земеделските Земи (БАСЗЗ).
+          </p>
+        </div>
+        <div class="Links">
+          <div class="Quick-links">
+            <h3>Бързи връзки</h3>
+            <ul>
+              <li>
+                <a href="#">Начало</a>
+              </li>
+              <li>
+                <a href="#">За Дружеството</a>
+              </li>
+              <li>
+                <a href="#">Купуване на земя</a>
+              </li>
+              <li>
+                <a href="#">Отдаване на земя</a>
+              </li>
+              <li>
+                <a href="#">Полезни връзки</a>
+              </li>
+              <li>
+                <a href="#">Обратна връзка</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Contacts">
+            <h3>Контакти</h3>
+            <ul>
+              <li>
+                <h4>Изпълнителен Директор:</h4>
+                <p>Иван Иванов</p>
+              </li>
+              <li>
+                <h4>Телефон:</h4>
+                <a href="tel+0123456789">0123456789</a>
+              </li>
+              <li>
+                <h4>Адрес:</h4>
+                <p>гр.Варна, ул.Иван Иванов 5</p>
+              </li>
+              <li>
+                <h4>Email:</h4>
+                <a href="mailto:example@example.com">example@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Controler for the menu-->
+    <script>
+      function toggleMenu() {
+        const mobileNav = document.getElementById("mobileNav");
+        mobileNav.classList.toggle("Open");
+      }
+    </script>
+  </body>
+</html>
